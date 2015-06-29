@@ -39,6 +39,3 @@ sources in(Compile, doc) := Seq.empty
 
 // disable publishing empty ScalaDocs
 publishArtifact in (Compile, packageDoc) := false
-
-licenses += ("Apache-2.0", url("http://opensource.org/licenses/apache-2.0"))
-
