@@ -4,6 +4,8 @@ name := "scalacheck-ops-root"
 publish := {}
 publishLocal := {}
 
+organization in ThisBuild := "com.rallyhealth"
+
 semVerLimit in ThisBuild := "2.0.999"
 
 scalaVersion in ThisBuild := "2.11.11"
